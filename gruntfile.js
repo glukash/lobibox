@@ -24,12 +24,12 @@ module.exports = function(grunt){
             }
         },
         
-        concat: {
-            js: {
-                src: ['js/messageboxes.js', 'js/notifications.js'],
-                dest: 'js/<%= pkg.name %>.js'
-            }
-        },
+        // concat: {
+        //     js: {
+        //         src: ['js/messageboxes.js', 'js/notifications.js'],
+        //         dest: 'js/<%= pkg.name %>.js'
+        //     }
+        // },
         
         copy: {
             js: {
