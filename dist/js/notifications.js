@@ -192,7 +192,7 @@ var Lobibox = Lobibox || {};
                 $el.append(delay);
             }
             var time = 0;
-            var interval = 1000 / 30;
+            var interval = 1000;
             var timer = setInterval(function () {
                 time += interval;
                 var width = 100 * time / me.$options.delay;
